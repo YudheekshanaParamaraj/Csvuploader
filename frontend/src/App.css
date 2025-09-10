@@ -1,0 +1,128 @@
+/* App.css */
+
+/* General page layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for uploader */
+.uploader-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.uploader-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* File input styling */
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px dashed #4caf50;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #f9fff9;
+  transition: 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #388e3c;
+  background: #f0fff0;
+}
+
+/* Button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Plot area */
+.plot-container {
+  margin-top: 40px;
+}
+
+/* App.css */
+
+/* Container box */
+.uploader-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.uploader-container h1 {
+  color: #222;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* File input */
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px dashed #4caf50;
+  border-radius: 8px;
+  background: #f9fff9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #388e3c;
+  background: #f0fff0;
+}
+
+/* Upload button */
+.upload-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.upload-btn:hover {
+  background: #45a049;
+}
+
+/* Plot section */
+.plot-container {
+  margin-top: 40px;
+}
